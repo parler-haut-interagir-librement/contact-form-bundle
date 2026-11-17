@@ -1,6 +1,6 @@
 {
     "name": "phil/contact-form-bundle",
-    "description": "A \"write to us\" form for Symfony: name, email, subject and message, protected by phil/spam-protection-bundle without a captcha, sent by Symfony Mailer from the site's own address with the visitor in Reply-To",
+    "description": "A \"write to us\" page for Symfony, protected from spam without a captcha, that emails each message to you with the visitor ready to answer in Reply-To.",
     "license": "MIT",
     "type": "symfony-bundle",
     "keywords": [
@@ -21,7 +21,7 @@
     "require": {
         "php": ">=8.5",
         "ext-filter": "*",
-        "phil/spam-protection-bundle": "^0.1@dev",
+        "phil/spam-protection-bundle": "^0.1@dev || ^0.2@dev",
         "psr/log": "^3.0",
         "symfony/config": "^8.2",
         "symfony/dependency-injection": "^8.2",
